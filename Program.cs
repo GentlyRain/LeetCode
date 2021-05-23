@@ -28,9 +28,14 @@ namespace LeetCode
 
                 /*** 质数个数统计 ***/
                 // 埃拉托色尼筛法
-                int range = 100;
-                int count = PrimeCount.Eratosthenes(100);
-                Console.WriteLine($"0-{range}内的质数个数: {count}");
+                int range1 = 100;
+                int count1 = PrimeCount.Eratosthenes(range1);
+                Console.WriteLine($"0-{range1}内的质数个数: {count1}");
+
+                // 暴力搜索法
+                int range2 = 10;
+                int count2 = PrimeCount.Bs(range2);
+                Console.WriteLine($"0-{range2}内的质数个数：{count2}");
                 /*** 质数个数统计 ***/
             }
             catch (Exception e)

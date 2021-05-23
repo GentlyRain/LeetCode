@@ -35,5 +35,34 @@ namespace LeetCode
 
             return count;
         }
+
+
+
+        /// <summary>
+        /// 暴力搜索法
+        /// </summary>
+        /// <param name="num"></param>
+        /// <returns></returns>
+        public static int Bs(int num)
+        {
+            int count = 0;
+            for (int i = 2; i <= num; i++)
+            {
+                count += isPrime(i) ? 1 : 0;
+            }
+            return count;
+        }
+
+        public static bool isPrime(int x)
+        {
+            for (int i = 2; i * i <= x; i++)
+            {
+                if (x % i == 0)
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
     }
 }
