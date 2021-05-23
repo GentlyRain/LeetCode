@@ -1,0 +1,16 @@
+D:\VS 2019\TEST\LeetCode\bin\Debug\net5.0\LeetCode.exe
+D:\VS 2019\TEST\LeetCode\bin\Debug\net5.0\LeetCode.deps.json
+D:\VS 2019\TEST\LeetCode\bin\Debug\net5.0\LeetCode.runtimeconfig.json
+D:\VS 2019\TEST\LeetCode\bin\Debug\net5.0\LeetCode.runtimeconfig.dev.json
+D:\VS 2019\TEST\LeetCode\bin\Debug\net5.0\LeetCode.dll
+D:\VS 2019\TEST\LeetCode\bin\Debug\net5.0\ref\LeetCode.dll
+D:\VS 2019\TEST\LeetCode\bin\Debug\net5.0\LeetCode.pdb
+D:\VS 2019\TEST\LeetCode\obj\Debug\net5.0\LeetCode.csprojAssemblyReference.cache
+D:\VS 2019\TEST\LeetCode\obj\Debug\net5.0\LeetCode.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS 2019\TEST\LeetCode\obj\Debug\net5.0\LeetCode.AssemblyInfoInputs.cache
+D:\VS 2019\TEST\LeetCode\obj\Debug\net5.0\LeetCode.AssemblyInfo.cs
+D:\VS 2019\TEST\LeetCode\obj\Debug\net5.0\LeetCode.csproj.CoreCompileInputs.cache
+D:\VS 2019\TEST\LeetCode\obj\Debug\net5.0\LeetCode.dll
+D:\VS 2019\TEST\LeetCode\obj\Debug\net5.0\ref\LeetCode.dll
+D:\VS 2019\TEST\LeetCode\obj\Debug\net5.0\LeetCode.pdb
+D:\VS 2019\TEST\LeetCode\obj\Debug\net5.0\LeetCode.genruntimeconfig.cache
