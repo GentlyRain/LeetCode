@@ -23,7 +23,7 @@ namespace LeetCode
 
 
         /// <summary>
-        /// 迭代
+        /// 递归
         /// </summary>
         /// <returns></returns>
         public static NodeList Recursion(NodeList head)
@@ -42,6 +42,11 @@ namespace LeetCode
 
 
 
+        /// <summary>
+        /// 迭代
+        /// </summary>
+        /// <param name="head"></param>
+        /// <returns></returns>
         public static NodeList Iteration(NodeList head)
         {
             NodeList next, prev = null;
