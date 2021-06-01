@@ -25,6 +25,8 @@ namespace LeetCode
                 /*** 链表倒置 ***/
 
 
+                Console.WriteLine();
+
 
                 /*** 质数个数统计 ***/
                 // 埃拉托色尼筛法
@@ -37,6 +39,16 @@ namespace LeetCode
                 int count2 = PrimeCount.Bs(range2);
                 Console.WriteLine($"0-{range2}内的质数个数：{count2}");
                 /*** 质数个数统计 ***/
+
+
+                Console.WriteLine();
+
+
+                /*** 斐波那契数列 ***/
+                Console.WriteLine($"斐波那契数列第10项：{Fib.Recursion(10)}");
+                Console.WriteLine($"斐波那契数列第10项：{Fib.ReviewRecursion(10)}");
+                Console.WriteLine($"斐波那契数列第10项：{Fib.TwoPointMethod(10)}");
+                /*** 斐波那契数列 ***/
             }
             catch (Exception e)
             {
