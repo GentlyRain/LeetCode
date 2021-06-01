@@ -45,10 +45,24 @@ namespace LeetCode
 
 
                 /*** 斐波那契数列 ***/
+                // 暴力递归
                 Console.WriteLine($"斐波那契数列第10项：{Fib.Recursion(10)}");
+
+                // 去重递归
                 Console.WriteLine($"斐波那契数列第10项：{Fib.ReviewRecursion(10)}");
+
+                // 双指针算法
                 Console.WriteLine($"斐波那契数列第10项：{Fib.TwoPointMethod(10)}");
                 /*** 斐波那契数列 ***/
+
+
+                Console.WriteLine();
+
+
+                /*** 硬币排列 ***/
+                Console.WriteLine($"11个硬币最对排列：{ArrangeCoin.ArrangeCoins1(11)}行");
+                Console.WriteLine($"11个硬币最对排列：{ArrangeCoin.ArrangeCoins2(11)}行");
+                /*** 硬币排列 ***/
             }
             catch (Exception e)
             {

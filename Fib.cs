@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace LeetCode
 {
+    /// <summary>
+    /// 斐波那契数列
+    /// </summary>
     public class Fib
     {
         /// <summary>
@@ -24,6 +27,11 @@ namespace LeetCode
         }
 
 
+        /// <summary>
+        /// 去重递归
+        /// </summary>
+        /// <param name="num"></param>
+        /// <returns></returns>
         public static int ReviewRecursion(int num)
         {
             int[] fibArray = new int[num + 1];
