@@ -60,9 +60,16 @@ namespace LeetCode
 
 
                 /*** 硬币排列 ***/
-                Console.WriteLine($"11个硬币最对排列：{ArrangeCoin.ArrangeCoins1(11)}行");
-                Console.WriteLine($"11个硬币最对排列：{ArrangeCoin.ArrangeCoins2(11)}行");
+                Console.WriteLine($"11个硬币最多排列：{ArrangeCoin.ArrangeCoins1(11)}行");
+                Console.WriteLine($"11个硬币最多排列：{ArrangeCoin.ArrangeCoins2(11)}行");
                 /*** 硬币排列 ***/
+
+
+                Console.WriteLine();
+
+
+                /*** 一维线性规划问题 ***/
+                Console.WriteLine($"{DynamicProgramming.GoUpstairs(10)}");
             }
             catch (Exception e)
             {
