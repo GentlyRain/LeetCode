@@ -68,8 +68,11 @@ namespace LeetCode
                 Console.WriteLine();
 
 
-                /*** 一维线性规划问题 ***/
-                Console.WriteLine($"{DynamicProgramming.GoUpstairs(10)}");
+                /*** 一维动态规划 ***/
+                Console.WriteLine($"一维动态规划：{DynamicProgramming.GoUpstairs(10)}种方式");
+
+                /*** 二维动态规划 ***/
+                Console.WriteLine($"二维动态规划：{DynamicProgramming.UniquePath(7, 3)}种路径");
             }
             catch (Exception e)
             {
