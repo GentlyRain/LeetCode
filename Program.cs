@@ -73,6 +73,11 @@ namespace LeetCode
 
                 /*** 二维动态规划 ***/
                 Console.WriteLine($"二维动态规划：{DynamicProgramming.UniquePath(7, 3)}种路径");
+
+                /*** 最短编辑距离 ***/
+                string str1 = "Boss";
+                string str2 = "Boston";
+                Console.WriteLine($"{str1}与{str2}的最短编辑距离：{DynamicProgramming.MinEditDistance(str1, str2)}");
             }
             catch (Exception e)
             {
